@@ -1,0 +1,26 @@
+# Frontend dependencies and build output
+FRONTEND/node_modules/
+FRONTEND/dist/
+FRONTEND/dist-ssr/
+
+# Backend build output and local tooling
+BACKEND/target/
+BACKEND/.mvn/wrapper/maven-wrapper.jar
+BACKEND/.metadata/
+BACKEND/.classpath
+BACKEND/.project
+BACKEND/.settings/
+
+# Local configuration and secrets
+*.local
+*.env
+*.env.*
+!*.env.example
+
+# IDE and operating-system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iml
+.DS_Store
+Thumbs.db
